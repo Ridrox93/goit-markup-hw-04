@@ -408,11 +408,6 @@ body {
     margin-bottom: 8px;
 }
 
-.feature-icon {
-    width: 64px;
-    height: 64px;
-}
-
 
 /*our-work section*/
 .our-work {
@@ -511,6 +506,11 @@ body {
 .social-list-icon {
     fill: var(--cloud-color)
 }
+
+.social-list-footer {
+    gap: 16px;
+}
+
 
 /*customer section*/
 
@@ -655,8 +655,8 @@ body {
     margin-right: 24px;
 }
 
-.selector-buttons-item:hover,
-.selector-buttons-item:focus {
+.portfolio-selektor-botton:hover,
+.portfolio-selektor-botton:focus {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
         0px 2px 1px rgba(0, 0, 0, 0.08),
         0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -700,7 +700,7 @@ body {
 
 }
 
-.selektor-list-item {
+.selektor-list-link {
     display: block;
 }
 
