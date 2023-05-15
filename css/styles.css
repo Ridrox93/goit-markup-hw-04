@@ -274,6 +274,7 @@ body {
     background-size: cover;
     background-position: center;
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 .container-of-order-section {
